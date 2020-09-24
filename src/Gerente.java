@@ -18,7 +18,7 @@ public class Gerente extends Funcionario {
 	// Reescrita do método
 	public double getBonificacao() {
 		System.out.println("Chamando o método de bonificação do GERENTE");
-		return super.getBonificacao() + super.getSalario(); 
+		return super.getSalario(); 
 		// "salario" vem da classe super, então não uso this
 	}
 

@@ -11,6 +11,8 @@
 // temos uma outra forma de conseguir polimorfismo sem herança.
 // Pois no Java não temos herança múltipla
 
+// Solução pura de Polimorfismo eu uso INFERTACES
+
 public abstract interface Autenticavel {
 	
 	// private int senha;
